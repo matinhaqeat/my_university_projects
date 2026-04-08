@@ -1,40 +1,29 @@
-# LDR-Based Automatic Brightness Control System
+# 🎓 University Projects Repository
 
-## 📌 Description
-This project uses an LDR (Light Dependent Resistor) to measure ambient light and automatically adjust brightness levels. The system reads light intensity using an Arduino and sends the data to a Python program for processing and visualization.
+## 📌 Overview
+This repository contains a collection of my university projects developed during my Computer Engineering studies. Each project focuses on different concepts such as electronics, programming, and system design.
 
-## ⚙️ Components Used
-- Arduino Uno
-- LDR (Light Sensor)
-- Resistor (10kΩ)
-- Breadboard
-- Jumper Wires
-- USB Cable
+## 🎯 Purpose
+- Organize all academic projects in one place  
+- Track progress and improvements over time  
+- Showcase practical skills and experience  
+- Serve as a portfolio for future opportunities  
 
-## 🔌 Circuit Setup
-The LDR is connected in a voltage divider configuration:
-- One side of LDR → 5V
-- Other side → Analog pin (A0) + Resistor to GND
+## 🚀 How to Use
+Each project has its own folder with:
+- Source code  
+- Documentation  
+- Setup instructions  
 
-## 💻 Software
-- Arduino IDE (for uploading code)
-- Python 3
-- PySerial library (for serial communication)
+Please check the README file inside each project for detailed information.
 
-## 🚀 How It Works
-1. The LDR detects light intensity.
-2. Arduino reads analog values (0–1023).
-3. Data is sent via serial port.
-4. Python script reads the data and processes it.
-5. Output can be used to control brightness (e.g., LEDs or screen).
+## 📈 Future Plans
+- Add more hardware-based projects  
+- Improve documentation and design  
+- Include diagrams and visual explanations  
 
-## ▶️ How to Run
+## 👨‍💻 Author
+Abdul Matin Haqeqat
 
-### Arduino
-1. Connect Arduino to your computer.
-2. Upload the Arduino code using Arduino IDE.
-
-### Python
-1. Install dependencies:
-   ```bash
-   pip install pyserial
+## 📌 Note
+This repository is for educational purposes and reflects my learning journey.
